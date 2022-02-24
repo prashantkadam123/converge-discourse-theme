@@ -1,7 +1,7 @@
 {{~raw-plugin-outlet name="topic-list-before-columns"}}
 
 {{#if bulkSelectEnabled}}
-  <td class="bulk-select testtt topic-list-data">
+  <td class="bulk-select topic-list-data">
     <label for="bulk-select-{{topic.id}}">
       <input type="checkbox" class="bulk-select" id="bulk-select-{{topic.id}}">
     </label>
